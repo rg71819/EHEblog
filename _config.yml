@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the Ethical Hacking Essentials Blog. 
   This blog serves as a comprehensive resource for the Ethical Hacking Essentials course. 
   With this blog, you'll gain valuable insight into the world of ethical hacking and enhance your learning experience.
-baseurl: " EHEblog" # the subpath of your site, e.g. /blog
+baseurl: "EHEblog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
