@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "ABCD of Nmap"
+date:   2023-05-14 05:28:23 -0500
+categories: nmap
+---
+
+
+## Nmap Intsallation
+Nmap is available for all major operating systems such as Windows, macOS, and Linux. To install Nmap, follow the steps below:
+
+##### For Windows:
+
+1. Download the nmap installer from the [Nmap website][Nmap]
+2. Double-click on the downloaded file and follow the installation wizard.
+
+##### For macOS:
+1. Nmap can be installed using Homebrew by running the command below
+  - ```brew install nmap```
+
+##### For Linux:
+- Nmap is available in most distributions' package repositories. 
+  - For example, on Ubuntu, you can install it by running the command ```sudo apt-get install nmap``` in the terminal.
+- If you are using Kali Linux Nmap is preinstalled.
+
+
+
+[Nmap]: https://nmap.org/download.html#windows
