@@ -23,6 +23,6 @@ Nmap is available for all major operating systems such as Windows, macOS, and Li
   - For example, on Ubuntu, you can install it by running the command ```sudo apt-get install nmap``` in the terminal.
 - If you are using Kali Linux Nmap is preinstalled.
 
-
+----
 
 [Nmap]: https://nmap.org/download.html#windows
