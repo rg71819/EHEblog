@@ -3,7 +3,7 @@ layout: post
 title:  "ABCD of Nmap"
 date:   2023-05-14 05:28:23 -0500
 author: Ravi Shankar Gurram
-categories: nmap
+categories: Assessment
 background: '/images/nmap.jpg'
 ---
 
