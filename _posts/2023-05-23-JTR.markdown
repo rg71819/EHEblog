@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ABCD of Nmap"
+title:  "Password cracking with john the ripper"
 date:   2023-05-14 05:28:23 -0500
 author: Ravi Shankar Gurram
 categories: Assessment
@@ -8,24 +8,15 @@ background: '/images/nmap.jpg'
 ---
 
 
-## Nmap Intsallation
-Nmap is available for all major operating systems such as Windows, macOS, and Linux. To install Nmap, follow the steps below:
+## Identify hashes with the hash-identifier tool
+In order to crack a hash, it is first necessary to identify what type of hash it is. By knowing the type of hash, we are able to reduce the amount of time required to crack the hash. By using the hash-identifier tool, we can determine what Hash type is being used.
+Hash-identifier tool with pre-installed in kali Linux. You can use it as follows
+You can supply hash with the hash-identifier command as shown below.
 
-##### For Windows:
+Command: hash-identifier <hash>
+Here is a screenshot showing possible types of hashes for the hash given with the command. 
+![screenshot showing possible types of hashes for the hash](images/JohnTheRipper/HashIdentifer/1.png "a title")
 
-1. Download the nmap installer from the [Nmap website][Nmap]
-2. Double-click on the downloaded file and follow the installation wizard.
 
-##### For macOS:
-1. Nmap can be installed using Homebrew by running the command below
-  - ```brew install nmap```
 
-##### For Linux:
-- Nmap is available in most distributions' package repositories. 
-  - For example, on Ubuntu, you can install it by running the command ```sudo apt-get install nmap``` in the terminal.
-- If you are using Kali Linux Nmap is preinstalled.
 
-----
-## Nmap Basics
-
-[Nmap]: https://nmap.org/download.html#windows
