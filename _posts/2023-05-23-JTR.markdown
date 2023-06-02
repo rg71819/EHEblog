@@ -13,14 +13,20 @@ In order to crack a hash, it is first necessary to identify what type of hash it
 Hash-identifier tool with pre-installed in kali Linux. You can use it as follows
 You can supply hash with the hash-identifier command as shown below.
 
-Command: hash-identifier <hash>
+Command: `hash-identifier <hash>`
 Here is a screenshot showing possible types of hashes for the hash given with the command. 
 
  <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/HashIdentifer/1.png" alt="screenshot showing possible types of hashes for the hash">
 
 You can also access the hash-identifier tool by typing the hash-identifier command in the terminal and entering the hash when prompted. 
-Command: hash-identifier
+Command: `hash-identifier <hash>`
 In the below screenshots you can see that when the hash is entered, possible types of hashes for the hash entered is shown.
 
  <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/HashIdentifer/2.png" alt="screenshot showing possible types of hashes for the hash">
+ 
+## Password cracking with john the ripper
+John the Ripper is a free password cracking software tool. The John Ripper tool can be used to crack hashes using wordlists. We can also extract password hashes from different file formats, such as zip, pdf, and documents, which can then be cracked.
+To use john the ripper tool run john command. We can see the options available in john the ripper using the command below.
+Command: `john --help`
 
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/HashIdentifer/2.png" alt="screenshot showing possible types of hashes for the hash">
