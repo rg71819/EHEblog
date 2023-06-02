@@ -3,7 +3,7 @@ layout: post
 title:  "Password cracking with john the ripper"
 date:   2023-05-14 05:28:23 -0500
 author: Ravi Shankar Gurram
-categories: Assessment
+categories: ['Password Auditing']
 background: 'images/JohnTheRipper/1.png'
 ---
 
