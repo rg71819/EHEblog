@@ -4,7 +4,7 @@ title:  "Password cracking with john the ripper"
 date:   2023-05-14 05:28:23 -0500
 author: Ravi Shankar Gurram
 categories: ['Password Auditing']
-background: 'images/JohnTheRipper/1.png'
+background: '/images/JohnTheRipper/1.png'
 ---
 
 
@@ -18,6 +18,9 @@ Here is a screenshot showing possible types of hashes for the hash given with th
 
  <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/HashIdentifer/1.png" alt="screenshot showing possible types of hashes for the hash">
 
+You can also access the hash-identifier tool by typing the hash-identifier command in the terminal and entering the hash when prompted. 
+Command: hash-identifier
+In the below screenshots you can see that when the hash is entered, possible types of hashes for the hash entered is shown.
 
-
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/HashIdentifer/2.png" alt="screenshot showing possible types of hashes for the hash">
 
