@@ -15,7 +15,7 @@ You can supply hash with the hash-identifier command as shown below.
 
 Command: hash-identifier <hash>
 Here is a screenshot showing possible types of hashes for the hash given with the command. 
-![screenshot showing possible types of hashes for the hash](images/JohnTheRipper/HashIdentifer/1.png "a title")
+![screenshot showing possible types of hashes for the hash](/images/JohnTheRipper/HashIdentifer/1.png "a title")
 
 
 
