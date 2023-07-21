@@ -10,3 +10,4 @@ background: '/images/nagios.png'
 
 ## Nagios Installation
 
+<iframe src="https://semo0-my.sharepoint.com/personal/rgurram1s_semo_edu/_layouts/15/Doc.aspx?sourcedoc={4d96e1d3-491b-481c-a151-054a1d2fb9a5}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="640px" height="480px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
