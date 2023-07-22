@@ -29,7 +29,7 @@ Nmap is available for all major operating systems such as Windows, macOS, and Li
 
 ##### For Windows:
 
-1. To Install Nmap on Windows. Download the Nmap installer for windows from the official website: https://nmap.org/download#windows
+1. To Install Nmap on Windows. Download the Nmap installer for windows from the [official website](https://nmap.org/download#windows)
 
 2. Run the installer and follow the instructions provided on the website. 
 
@@ -41,13 +41,13 @@ Nmap is available for all major operating systems such as Windows, macOS, and Li
 
 
 ##### For macOS:
-1. To Install Nmap on MacOS. Download the Nmap installer for Mac OS X from the official website: https://nmap.org/download#macosx
+1. To Install Nmap on MacOS. Download the Nmap installer for Mac OS X from the [official website](https://nmap.org/download#macosx)
 
 2. Run the installer and follow the instructions provided on the website. 
 
-3. Refer to this URL for additional instructions on installing and running Nmap and Zenmap: https://nmap.org/book/inst-macosx.html
+3. For additional instructions on installing and running Nmap and Zenmap, refer to this [URL](https://nmap.org/book/inst-macosx.html)
 
-If you want to compile-it-yourself you can refer to this URL: https://nmap.org/download#source
+If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/download#source)
 
 
 ##### For Linux:
@@ -62,25 +62,25 @@ If you want to compile-it-yourself you can refer to this URL: https://nmap.org/d
     - sudo apt install nmap
     - sudo apt install zenmap
 
-2. For RPM (Redhat, Mandrake, Suse, etc) based systems, download installer and follow the instructions provided on the website: https://nmap.org/download#linux-rpm
+2. For RPM (Redhat, Mandrake, Suse, etc) based systems, download installer and follow the instructions provided on the [website](https://nmap.org/download#linux-rpm)
 
-3. If you want to compile-it-yourself you can refer to this URL: https://nmap.org/download#source
+3. If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/download#source)
 
 4. In Security focused Linux distributions like parrot, kali Nmap comes preinstalled. 
 
 
 ----
 ## Nmap Basics
-----
+
 
 ----
 ## Additional Resources
-----
+
 Here are some resources that are useful:
-  - Website to download Nmap on your Machine: https://nmap.org/download
+  - [Website to download Nmap on your Machine](https://nmap.org/download)
 
-  -  Tryhackme Room to Practice your Nmap Skills: https://tryhackme.com/room/furthernmap
+  -  [Tryhackme Room to Practice your Nmap Skills](https://tryhackme.com/room/furthernmap)
 
-  - Nmap cheat sheet by StationX : https://www.stationx.net/nmap-cheat-sheet/
+  - [Nmap cheat sheet by StationX](https://www.stationx.net/nmap-cheat-sheet/)
 
-  - Nmap official guide: https://nmap.org/book/toc.html
+  - [Nmap official guide](https://nmap.org/book/toc.html)
