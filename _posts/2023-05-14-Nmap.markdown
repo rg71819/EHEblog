@@ -7,6 +7,15 @@ categories: ['Assessment Tools']
 background: '/images/nmap.jpg'
 ---
 
+## Nmap for beginners
+Nmap (Network Mapper) is a powerful and widely-used open-source network scanner tool. It was initially developed and released in 1997 by Gordon Lyon (Fyodor). The Nmap tool runs on the command line/terminal, but there is a GUI version of the tool as well, called Zenmap. Using Nmap we can scan entire networks or single hosts to monitor them or gather information about them. An Nmap scan will tell us:
+  - what hosts are available on the network, 
+  - what services those hosts offer (application name and version), 
+  - what operating systems (and OS versions) are running, 
+  - what packet filters/firewalls are used, and other details.
+
+
+
 
 ## Nmap Intsallation
 Nmap is available for all major operating systems such as Windows, macOS, and Linux. To install Nmap, follow the steps below:
