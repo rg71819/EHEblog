@@ -23,16 +23,14 @@ With Nmap we can perform:
   - Vulnerability Scanning: We can also use Nmap to detect vulnerabilities on the hosts. With NSE (Nmap Script Engine) we can use existing scripts or create new scripts to automate tasks and extent Nmap’s functionality
 
 ----
-## Nmap Intsallation
+## Nmap Installation
 ----
 Nmap is available for all major operating systems such as Windows, macOS, and Linux. To install Nmap, follow the steps below:
 
 ##### For Windows:
 
 1. To Install Nmap on Windows. Download the Nmap installer for windows from the [official website](https://nmap.org/download#windows)
-
 2. Run the installer and follow the instructions provided on the website. 
-
 3. Once the installation is complete, You can access Nmap in two ways.
     - Run the command nmap on terminal/command prompt.
     - Search for Zenmap on the start menu.
@@ -42,9 +40,7 @@ Nmap is available for all major operating systems such as Windows, macOS, and Li
 
 ##### For macOS:
 1. To Install Nmap on MacOS. Download the Nmap installer for Mac OS X from the [official website](https://nmap.org/download#macosx)
-
 2. Run the installer and follow the instructions provided on the website. 
-
 3. For additional instructions on installing and running Nmap and Zenmap, refer to this [URL](https://nmap.org/book/inst-macosx.html)
 
 If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/download#source)
@@ -56,9 +52,7 @@ If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/
       - ```sudo apt update```
       - ```sudo apt install nmap```
       - ```sudo apt install zenmap```
-
 2. For RPM (Redhat, Mandrake, Suse, etc) based systems, download installer and follow the instructions provided on the [website](https://nmap.org/download#linux-rpm)
-
 3. If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/download#source)
 
 In Security focused Linux distributions like parrot, kali Nmap comes preinstalled. 
@@ -73,9 +67,6 @@ In Security focused Linux distributions like parrot, kali Nmap comes preinstalle
 
 Here are some resources that are useful:
   - [Website to download Nmap on your Machine](https://nmap.org/download)
-
   -  [Tryhackme Room to Practice your Nmap Skills](https://tryhackme.com/room/furthernmap)
-
   - [Nmap cheat sheet by StationX](https://www.stationx.net/nmap-cheat-sheet/)
-
   - [Nmap official guide](https://nmap.org/book/toc.html)
