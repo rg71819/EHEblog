@@ -51,26 +51,21 @@ If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/
 
 
 ##### For Linux:
-- Nmap is available in most distributions' package repositories. 
-  - For example, on Ubuntu, you can install it by running the command ```sudo apt-get install nmap``` in the terminal.
-- If you are using Kali Linux Nmap is preinstalled.
-
-
 1. For Debian-based systems (e.g., Ubuntu)
     - On your system open a terminal, run the following command:
-    - sudo apt update
-    - sudo apt install nmap
-    - sudo apt install zenmap
+      - ```sudo apt update```
+      - ```sudo apt install nmap```
+      - ```sudo apt install zenmap```
 
 2. For RPM (Redhat, Mandrake, Suse, etc) based systems, download installer and follow the instructions provided on the [website](https://nmap.org/download#linux-rpm)
 
 3. If you want to compile-it-yourself you can refer to this [URL](https://nmap.org/download#source)
 
-4. In Security focused Linux distributions like parrot, kali Nmap comes preinstalled. 
+In Security focused Linux distributions like parrot, kali Nmap comes preinstalled. 
 
 
 ----
-## Nmap Basics
+## Nmap Basics video
 
 
 ----
