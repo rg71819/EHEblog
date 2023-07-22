@@ -6,35 +6,81 @@ author: Ravi Shankar Gurram
 categories: ['Assessment Tools']
 background: '/images/nmap.jpg'
 ---
-
+----
 ## Nmap for beginners
+----
 Nmap (Network Mapper) is a powerful and widely-used open-source network scanner tool. It was initially developed and released in 1997 by Gordon Lyon (Fyodor). The Nmap tool runs on the command line/terminal, but there is a GUI version of the tool as well, called Zenmap. Using Nmap we can scan entire networks or single hosts to monitor them or gather information about them. An Nmap scan will tell us:
   - what hosts are available on the network, 
   - what services those hosts offer (application name and version), 
   - what operating systems (and OS versions) are running, 
   - what packet filters/firewalls are used, and other details.
 
+With Nmap we can perform:
+  - Host Discovery: Nmap can identify active hosts on a network.
+  - Port Scanning: It can scan open ports to identify running services.
+  - OS Fingerprinting: Nmap can guess the operating system running on a target host.
+  - Service and Version Detection: Nmap can determine the specific software versions running on services.
+  - Vulnerability Scanning: We can also use Nmap to detect vulnerabilities on the hosts. With NSE (Nmap Script Engine) we can use existing scripts or create new scripts to automate tasks and extent Nmap’s functionality
 
-
-
+----
 ## Nmap Intsallation
+----
 Nmap is available for all major operating systems such as Windows, macOS, and Linux. To install Nmap, follow the steps below:
 
 ##### For Windows:
 
-1. Download the nmap installer from the [Nmap website][Nmap]
-2. Double-click on the downloaded file and follow the installation wizard.
+1. To Install Nmap on Windows. Download the Nmap installer for windows from the official website: https://nmap.org/download#windows
+
+2. Run the installer and follow the instructions provided on the website. 
+
+3. Once the installation is complete, You can access Nmap in two ways.
+    - Run the command nmap on terminal/command prompt.
+    - Search for Zenmap on the start menu.
+
+      
+
 
 ##### For macOS:
-1. Nmap can be installed using Homebrew by running the command below
-  - ```brew install nmap```
+1. To Install Nmap on MacOS. Download the Nmap installer for Mac OS X from the official website: https://nmap.org/download#macosx
+
+2. Run the installer and follow the instructions provided on the website. 
+
+3. Refer to this URL for additional instructions on installing and running Nmap and Zenmap: https://nmap.org/book/inst-macosx.html
+
+If you want to compile-it-yourself you can refer to this URL: https://nmap.org/download#source
+
 
 ##### For Linux:
 - Nmap is available in most distributions' package repositories. 
   - For example, on Ubuntu, you can install it by running the command ```sudo apt-get install nmap``` in the terminal.
 - If you are using Kali Linux Nmap is preinstalled.
 
+
+1. For Debian-based systems (e.g., Ubuntu)
+    - On your system open a terminal, run the following command:
+    - sudo apt update
+    - sudo apt install nmap
+    - sudo apt install zenmap
+
+2. For RPM (Redhat, Mandrake, Suse, etc) based systems, download installer and follow the instructions provided on the website: https://nmap.org/download#linux-rpm
+
+3. If you want to compile-it-yourself you can refer to this URL: https://nmap.org/download#source
+
+4. In Security focused Linux distributions like parrot, kali Nmap comes preinstalled. 
+
+
 ----
 ## Nmap Basics
+----
 
-[Nmap]: https://nmap.org/download.html#windows
+----
+## Additional Resources
+----
+Here are some resources that are useful:
+  - Website to download Nmap on your Machine: https://nmap.org/download
+
+  -  Tryhackme Room to Practice your Nmap Skills: https://tryhackme.com/room/furthernmap
+
+  - Nmap cheat sheet by StationX : https://www.stationx.net/nmap-cheat-sheet/
+
+  - Nmap official guide: https://nmap.org/book/toc.html
