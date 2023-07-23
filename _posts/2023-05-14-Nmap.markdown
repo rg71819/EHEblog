@@ -61,7 +61,7 @@ In Security focused Linux distributions like parrot, kali Nmap comes preinstalle
 ----
 ## Nmap Basics video
 
-
+<iframe width="640" height="480" src="https://www.youtube.com/embed/ya94sgG0H5Q" frameborder="0" ></iframe>
 ----
 ## Additional Resources
 
