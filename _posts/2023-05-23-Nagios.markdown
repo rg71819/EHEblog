@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ABCD of Nagios"
+title:  "Nagios for beginners"
 date:   2023-05-23 05:28:23 -0500
 author: Ravi Shankar Gurram
 categories: ['Miscellaneous Tools']
@@ -11,6 +11,8 @@ background: '/images/nagios.png'
 ## Nagios for beginners
 
 Nagios Core is a popular open-source monitoring system. It monitors the performance and availability of servers, network devices, applications, and services. It helps us to perform continuous monitoring. Nagios helps in proactively identifying issues, minimizing downtime, and maintaining overall system reliability and performance. Even in case of any failure, Nagios tool can alert about the problem. With Nagios we can monitor Windows systems, Linux systems, servers, applications, SNMP, and logs. Nagios is also available as an enterprise edition called "Nagios XI”.
+
+
 
 Uses of the nagios core software are:
 
@@ -51,3 +53,8 @@ The NRPE plugin consists of two components:
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/w1g3gqsqG24" frameborder="0" allowfullscreen></iframe>
 ----
+## Additional Resources
+
+ - Nagios Installation Guide: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/quickstart.html
+ - Nagios Documentation: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/toc.html
+

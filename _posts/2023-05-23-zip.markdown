@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Zip for beginners"
+date:   2023-05-14 05:28:23 -0500
+author: Ravi Shankar Gurram
+categories: ['Assessment Tools']
+background: '/images/Home page Background.jpg'
+---
+
+## Zip for beginners
+
+ZIP file format is widely used for archiving and compressing files. The Zip compression format allows multiple files and folders to be merged into a single compressed file. To reduce the size of files without losing any data, ZIP uses lossless compression algorithms. You can identify ZIP files by their .ZIP or .zip extension. Using zip and unzip tools, we can create archives, compress and uncompress files. All new operating systems come with Zip and Unzip tools preinstalled.
+
+Uses of zip file format:
+
+ - ZIP compression is designed to reduce storage space and facilitate faster file transfers.
+ - Lossless Compression: ZIP uses lossless compression algorithms, ensuring that no data is lost during compression and decompression.
+ - File Encryption: ZIP supports password-based encryption to protect sensitive files and data.
+ - File Structure: ZIP archives maintain a hierarchical structure, preserving the original folder structure and file attributes.
+ - Cross-Platform compatibility: The ZIP file format is widely supported by different operating systems and can be extracted using a variety of tools.
+
+
+## Zip Installation and Usage
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/bN__t5DnsCI" frameborder="0" allowfullscreen></iframe>
+
+
+## Additional Resources
+
+- https://experience.dropbox.com/resources/what-is-a-zip-file
