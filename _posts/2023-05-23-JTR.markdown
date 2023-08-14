@@ -33,6 +33,10 @@ To use john the ripper tool run john command. We can see the options available i
 
 Command: `john --help`
 
- <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/HashIdentifer/2.png" alt="screenshot showing possible types of hashes for the hash">
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/1.png" alt="screenshot showing help menu of john the ripper">
 
-<iframe src="https://semo0-my.sharepoint.com/personal/rgurram1s_semo_edu/_layouts/15/Doc.aspx?sourcedoc={8ecdf8a1-b0f1-48b8-a007-ac143612d9f8}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+To list the various types of hashes that john the ripper can crack/support. We can use the command below.
+Command: `john --list=formats`
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/2.png" alt="screenshot showing help menu of john the ripper">  
+
+

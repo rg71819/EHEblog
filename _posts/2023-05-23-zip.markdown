@@ -3,7 +3,7 @@ layout: post
 title:  "Zip for beginners"
 date:   2023-05-14 05:28:23 -0500
 author: Ravi Shankar Gurram
-categories: ['Assessment Tools']
+categories: ['Compression Utilities']
 background: '/images/Home page Background.jpg'
 ---
 
