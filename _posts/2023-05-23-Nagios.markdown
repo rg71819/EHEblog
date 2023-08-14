@@ -8,6 +8,46 @@ background: '/images/nagios.png'
 ---
 
 
-## Nagios Installation
+## Nagios for beginners
 
-<iframe src="https://semo0-my.sharepoint.com/personal/rgurram1s_semo_edu/_layouts/15/Doc.aspx?sourcedoc={4d96e1d3-491b-481c-a151-054a1d2fb9a5}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="640px" height="480px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+Nagios Core is a popular open-source monitoring system. It monitors the performance and availability of servers, network devices, applications, and services. It helps us to perform continuous monitoring. Nagios helps in proactively identifying issues, minimizing downtime, and maintaining overall system reliability and performance. Even in case of any failure, Nagios tool can alert about the problem. With Nagios we can monitor Windows systems, Linux systems, servers, applications, SNMP, and logs. Nagios is also available as an enterprise edition called "Nagios XI”.
+
+Uses of the nagios core software are:
+
+ - Continuous Monitoring: Continuous monitoring is a process that detects, reports, and responds to all issues that occur in the infrastructure. Continuous monitoring begins once the application/host is deployed. With Continuous monitoring, Nagios actively monitors the status of these components and alerts administrators when problems occur.
+
+ - Alerting: In case of problems or when specified thresholds are exceeded, Nagios sends alerts and notifications using email, SMS, or user-defined method. This allows administrators to address issues immediately before they negatively impact users or services.
+
+ - Performance Tracking: Monitoring of network performance is done using Nagios by collecting and storing historical data. The tool generates reports and graphs that help administrators analyze trends, identify bottlenecks, and optimize resources
+
+ - Event Handling and Automation: In response to specific events or alerts, Nagios can execute predefined actions or scripts. Automating routine tasks, performing corrective actions, and simplifying troubleshooting are all possible with this capability.
+
+ - Extensibility: Plugins and extensions are available for Nagios, making it highly extensible. In addition to monitoring natively supported applications, devices, and protocols, users can customize and expand its capabilities.
+
+---
+## Nagios Architecture
+
+There are three main components in Nagios application:
+
+1. Scheduler: Nagios servers include a scheduler. Scheduler runs plugins at regular intervals to monitor local services and remote hosts and takes action based on their results.
+
+2. Nagios GUI: It is the web interface to access Nagios. We can access the interface remotely to view the status of hosts and services. 
+
+3. Plugins: Nagios plugins are compiled executables or scripts (Perl or non-Perl) that extend its functionality. After installing Nagios, we need to install the plugins separately. When Nagios needs to check the status of a host or service, it will execute a Plugin. Plugins perform checks and return the results to Nagios. Plugin results will be processed by Nagios and appropriate actions will be taken.
+
+ <img class="img-fluid" src="/EHEblog/images/nagios/Nagios Architecture.png" alt="Image of Nagios Architecture">
+
+
+The NRPE plugin is used to monitor Remote hosts in Nagios. To monitor local resources/attributes on a remote host, such as disk usage, CPU load, memory usage, etc., this will be useful.
+
+The NRPE plugin consists of two components:
+1. The check_nrpe plugin, which is installed on the local monitoring machine (Nagios Server).
+2. The NRPE daemon, which runs on the remote Linux/Unix machine that need to be monitored.
+
+ <img class="img-fluid" src="/EHEblog/images/nagios/Nagios plugins.png" alt="Image of Nagios plugins overview">
+
+----
+## Nagios Installation video
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/w1g3gqsqG24" frameborder="0" allowfullscreen></iframe>
+----
