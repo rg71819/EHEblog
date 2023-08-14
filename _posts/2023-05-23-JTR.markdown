@@ -61,3 +61,45 @@ To crack the password of a zip file we need the password hash of that file, so l
 - Command: `zip2john test.zip > testZipHash`
  
  <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.5.png" alt="screenshot showing how to extract hash from a zip file with JTR">   
+
+ To see the contents of saved hash you can use the command below.
+- Command: `cat testZipHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.6.png" alt="screenshot showing how to see the contents of saved hash file">
+
+ To crack the password of zip file we need to use the extracted hash and a wordlist rockyou.txt as wordlist.
+- Command: `john --wordlist=/usr/share/wordlists/rockyou.txt testZipHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.7.png" alt="screenshot showing how to crack the password of zip file using JTR">
+
+after the password cracking is completed, we can still see the cracked password of a hash file using option `--show`.
+- Command: `john --show testZipHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.7.png" alt="screenshot showing how to crack the password of zip file using JTR">
+
+## Cracking ssh keys
+
+To crack the password of a ssh private key we need the password hash of that key, so let’s extract the hash from private key using ssh2john tool which is part of john the ripper tool suite and save it to a file using the command below. 
+- Command: `ssh2john id_rsa > sshHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.9.png" alt="screenshot showing how to crack the password of a ssh private key using JTR">
+
+In the above step we had extracted the hash from private key now and displayed it, now let’s crack the extracted hash using a wordlist, we are using rockyou.txt as wordlist.
+- Command: `john --wordlist=/usr/share/wordlists/rockyou.txt sshHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.10.png" alt="screenshot showing how to crack the password of a ssh private key using JTR">
+
+## Crack passwords of word document
+To crack the password of a word document we need the password hash of that word document. So, let’s extract the hash from a word document using the office2john tool. This is part of the john the ripper tool suite. We'll also save it to a file, using the command below.
+- Command: `office2john Hello\ Hackerman.docx > officeHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.11.png" alt="screenshot showing how to crack the password of a word document using JTR">
+
+ We can display the hash using the command below.
+- Command: `cat officeHash`
+
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.12.png" alt="screenshot showing how to crack the password of a word document using JTR">
+
+ In the above step we had extracted the hash from private key now and displayed it, now let’s crack the extracted hash using a wordlist, we are using rockyou.txt as wordlist.
+- Command: `john --wordlist=/usr/share/wordlists/rockyou.txt officeHash`
+
