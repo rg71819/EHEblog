@@ -30,13 +30,29 @@ In the below screenshots you can see that when the hash is entered, possible typ
 ## Password cracking with john the ripper
 John the Ripper is a free password cracking software tool. The John Ripper tool can be used to crack hashes using wordlists. We can also extract password hashes from different file formats, such as zip, pdf, and documents, which can then be cracked.
 To use john the ripper tool run john command. We can see the options available in john the ripper using the command below.
+- Command: `john --help`
 
-Command: `john --help`
-
- <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/1.png" alt="screenshot showing help menu of john the ripper">
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.0.png" alt="screenshot showing help menu of john the ripper">
 
 To list the various types of hashes that john the ripper can crack/support. We can use the command below.
-Command: `john --list=formats`
- <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/2.png" alt="screenshot showing help menu of john the ripper">  
+ - Command: `john --list=formats`
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.1.png" alt="screenshot showing formats supported by JTR">  
 
+## Cracking password hashes
+To crack password hashes with john, we need the hashes that need to be cracked in a file and a wordlist and format of the hash.
+Here we are using the rockyou.txt wordlist that is available in kali. Let’s extract the rockyou.txt wordlist using the command below.
+- Command: `sudo gunzip /usr/share/wordlists/rckyou.txt.gz`
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.2.png" alt="screenshot showing the extraction of rockyou file">  
 
+Now run the command below to crack the password hash available in the file named “hash”.
+- Command: `john --wordlist=/usr/share/wordlists/rockyou.txt hash1 --format=raw-md5`
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.3.png" alt="screenshot showing how to crack hash with JTR">  
+
+Here is another example to crack the hash.
+- Command: `john --wordlist=/usr/share/wordlists/rockyou.txt hash2 --format=raw-sha1`
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.4.png" alt="screenshot showing how to crack hash with JTR">   
+
+## Cracking Zip file passwords
+To crack the password of a zip file we need the password hash of that file, so let’s extract the hash from zip file using zip2john tool which is part of john the ripper tool suite and save it to a file
+- Command: `zip2john test.zip > testZipHash`
+ <img class="img-fluid" src="/EHEblog/images/JohnTheRipper/0.5.png" alt="screenshot showing how to extract hash from a zip file with JTR">   
