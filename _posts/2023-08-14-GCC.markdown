@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "GCC for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Teona
+categories: ['Miscellaneous Tools']
+background: '/images/Home page Background.jpg'
+---
+
+## GCC for beginners
+
+GCC is a powerful and widely-used compiler toolchain for multiple programming languages including C, C++, Ada, Fortran, Objective-C, and more. GCC stands for GNU Compiler Collection. It is an open-source compiler system developed by the Free Software Foundation (FSF)
+GCC toolchain consists of several components: 
+ <img class="img-fluid" src="/EHEblog/images/GCC/1.png" alt="image showing several components of GCC toolchain">
+
+ ## Purpose of GCC Tool
+
+- Wide Language Support: GCC supports multiple programming languages, including C, C++, Ada, Fortran, Objective-C, and more. This versatility allows writing the code in different languages while using a consistent compiler toolchain.
+- Portability: GCC is available for various platforms, including Linux, macOS, and Windows. This means developing code on one platform and compile it for execution on different target systems.
+- Open-Source and Community Driven: GCC is an open-source project developed and maintained by the GNU Project and a large community of contributors. This means that the source code is freely available, and the user has the flexibility to modify and customize the compiler to suit specific needs.
+- Performance and Optimization: GCC provides advanced optimization 
+    techniques that can improve the performance of the programs, such as 
+    loop unrolling, inline function expansion, and instruction scheduling, 
+    to generate efficient machine code.
+- Mature and Stable: GCC has been used for many years and has a long history of development and refinement. It is a mature and stable compiler that has been extensively tested and used in various production environments.
+- Standards Compliance: GCC implements the relevant language standards, such as the C standard and the C++ standard, ensuring compatibility and portability of the code across different compilers and platforms.
+- Robust Toolset: GCC provides a comprehensive set of tools beyond just the compiler, including the preprocessor, linker, assembler, and debugging/profiling utilities, which simplifies the development process and allows the user to perform tasks like code analysis, debugging, and optimization within a unified environment.
+- Large User Community: GCC has a large and active user community, 
+    which means that there is extensive documentation, tutorials, and support
+    available online. 
+## Uses of GCC
+- Operating Systems: used to compile the kernel, device drivers, and other system components. 
+Embedded Systems: can target a wide range of architectures, making it suitable for embedded platforms such as microcontrollers, IoT devices, and embedded Linux systems. 
+- Application Development: supports programming languages like C, C++, Ada, and Fortran, making it versatile for different types of applications. 
+High-Performance Computing: enables developers to write and optimize parallel code for supercomputers and HPC clusters. 
+- Academic and Research Projects: commonly employed for teaching programming languages and compiler theory. 
+- Open-Source Software: open-source nature aligns well with the philosophy of the open-source community. 
+- Cross-Platform Development: able to target multiple platforms. Developers can write code on 
+one platform and compile it for execution on different target systems, including Linux, macOS, 
+Windows, and various embedded platforms.
+## Requirements for Installation and Usage of GCC
+- Compiler Executable - Translates source code into executable machine code
+- Operating System - Linux, macOS, or Windows
+- Development Libraries - Provide additional functionality and support for various language features (header files, import libraries, and runtime libraries)
+- Text Editor/Source Code Editor -  Vim, Emacs, Sublime Text, Visual Studio Code, and Notepad++
+- Build System/Makefile - Simplifies the compilation and linking process by automating repetitive tasks and managing project configurations
+- Command-Line Interface (CLI) - GCC is primarily used through the command-line interface, where you issue commands to invoke the compiler and specify compilation options, source files, output files, and other parameters
+- Debugging Tools (Optional) – Troubleshoot and analyze code during development
+
+## GCC Installation
+
+#### For Windows
+- Install msys64, a Windows port of GCC. Download it from the official website: [https://www.msys2.org/](https://www.msys2.org/) 
+- Under installation section click on Download the installer:
+ <img class="img-fluid" src="/EHEblog/images/GCC/2.png" alt="image showing download option of GCC">
+- Run the installer and follow the instructions provided on the website. 
+- Once the installation is complete, the MSYS terminal will show up on your screen. Follow the steps 6, 7 and 8 to verify if the GCC has being installed. Run the following commands:
+  - `pacman -S mingw-w64-ucrt-x86_64-gcc`
+  - `gcc --version`
+
+If GCC is installed correctly, it will display the version information
+
+#### For MacOS
+- Install Xcode Command Line Tools by opening a terminal and running the following command:
+    - `xcode-select --install`
+ 
+ If GCC is installed correctly, it will display the version information
+
+ #### For Linux
+- Open a terminal.
+- For Debian-based systems (e.g., Ubuntu), run the following command:
+    - `sudo apt-get update`
+    - `sudo apt-get install build-essential`
+- For Red Hat-based systems (e.g., Fedora), run the following command:
+    - `sudo dnf update`
+    - `sudo dnf group install "Development Tools"`
+
+ If GCC is installed correctly, it will display the version information
+
+ ## Explanation of GCC toolchain
+
+ ## Additional Resources	 
+ - [Website to download Ubuntu on your Machine](https://ubuntu.com/download/desktop)
+ - [Website to download Virtual Box on your Machine](https://www.virtualbox.org/wiki/Downloads)
+- [Website to download Kali Linux on already existing Virtual Box](https://www.kali.org/)
+
+
+
+
+
+ 
