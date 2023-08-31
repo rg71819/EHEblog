@@ -3,7 +3,7 @@ layout: post
 title:  "PhpMyAdmin for beginners"
 date:   2023-08-14 05:28:23 -0500
 author: Priya
-categories: ['DNS Utilities']
+categories: ['Miscellaneous Tools']
 background: '/images/Home page Background.jpg'
 ---
 ## PhpMyAdmin for beginners
