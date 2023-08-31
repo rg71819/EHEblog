@@ -1,0 +1,156 @@
+---
+layout: post
+title:  "The Coroners Toolkit(TCT) for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Teona
+categories: ['Forensics Utilities']
+background: '/images/Home page Background.jpg'
+---
+## The Coroners Toolkit(TCT) for beginners
+The Coroner's Toolkit (TCT) is a comprehensive collection of tools developed specifically for computer forensic investigations and incident response. TCT equips investigators and security professionals with the necessary capabilities to analyze digital evidence, recover data, and effectively respond to security incidents. With the set of features, TCT enables users to acquire and examine digital evidence from various sources, including computer systems, storage media, and network traffic.
+## Purpose of The Coroners Toolkit(TCT)
+- Enhancing Incident Response Capabilities: TCT was designed to support incident response efforts by providing tools for data recovery, system baselining, log analysis, and other key tasks. 
+- Advancing Forensic Investigations: TCT tools facilitate the examination and analysis of digital data, and they handle the complexities of digital investigations
+- Open-Source Software: TCT an open-source software that is freely available to the community
+- Filling a Gap in Available Tools: At the time of its creation, there was a 
+    lack of comprehensive and freely available tools specifically tailored for 
+    computer forensic investigations. TCT offered a collection of tools that 
+    could be used by investigators, researchers, and security practitioners.
+## Uses of TCT
+ - Digital Forensics: TCT provides tools for acquiring, analyzing, and examining digital evidence from computer systems, storage media, and network traffic. It assists investigators in recovering deleted files, extracting metadata, identifying file system artifacts, and performing keyword searches
+ - Incident Response: TCT helps security professionals gather relevant data, analyze log files, and identify indicators of compromise (IOCs) to understand the nature and scope of an incident
+ - Data Recovery: TCT includes tools for data recovery from damaged or corrupted media. This is particularly useful in situations where data loss has occurred due to hardware failures, file system corruption, or intentional deletion.
+- System Baselining: By comparing subsequent system snapshots to the baseline, investigators can identify unauthorized changes, detect malware, or uncover evidence of tampering.
+- Evidence Preservation: It includes tools for creating forensic disk images, hashing files for verification, and maintaining a documented chain of custody.
+- File System Analysis: TCT assists in the analysis of file systems, enabling investigators to understand the organization, metadata, and relationships among files and directories. This can reveal important information about user activities, file access patterns, and potential evidence.
+- Log Analysis: TCT includes tools for parsing and analyzing log files, allowing investigators to identify suspicious activities, track user actions, and reconstruct events. This helps in establishing timelines, identifying potential sources of compromise, and understanding the sequence of events during an incident.
+- Network Traffic Analysis: This aids in the examination of network-based attacks, identifying communication patterns, and detecting potential security breaches.
+## Requirements for Installation and Usage of TCT
+- Operating System - Linux, macOS, or Windows
+- Command-Line Interface (CLI)
+- Hardware Resources: The hardware requirements for TCT depend on the specific tools within the toolkit and the scale of the investigation. Generally, a system with sufficient processing power, memory, and storage capacity is recommended to handle the analysis and storage of digital evidence
+- Disk Space: TCT tools may require disk space to store acquired disk images, recovered files, or generated analysis reports
+- Administrative Privileges: Certain operations performed by TCT, such as disk imaging or accessing sensitive system files, may require administrative privileges. Ensure that you have the necessary permissions to carry out these tasks
+- Dependencies: TCT may have dependencies on other software libraries or tools
+
+## Tools Included in TCT
+- Autopsy: 
+    - A graphical interface for analyzing disk images and file systems.
+	- Allows for file recovery, keyword searching, timeline analysis, and metadata extraction.
+- Dd and Ddrescue:
+	- Tools for creating forensic disk images and performing data recovery from damaged media.
+- Sleuth Kit:
+	- A collection of command-line tools for analyzing disk images and file systems.
+	- Provides file system analysis, metadata extraction, keyword searching, and more.
+- Scalpel/Foremost:
+	- A file carving tool used for recovering deleted files from disk images.
+- Volatility:
+	- A memory forensics framework used for analyzing system memory in forensics investigations.
+- Chkrootkit:
+	- A tool for detecting rootkits on a system.
+## Installation of Autopsy
+
+#### Windows/MacOS
+- Download it from this website: Autopsy – Download
+- Follow the instructions to install it on your system
+- Once the installation is complete, you can launch Autopsy from the Start menu or desktop shortcut
+
+#### Linux
+- In Ubuntu Terminal run the following command:     
+    - `sudo apt-get install autopsy`
+- After downloading the installer, open a terminal, navigate to the directory where the installer is located, and make it executable if necessary (e.g., chmod +x autopsy-version-linux64.sh).
+- Run the installer script, following any prompts or instructions provided: `./autopsy-version-linux64.sh`
+
+## Installation of Dd and Ddrescue
+#### Windows
+- Windows does not have native versions of ‘dd’ and ‘ddrescue’, which are commonly used in Unix-like environments
+
+#### MacOS
+- macOS includes the native ‘dd’ command, no need of an installation
+- Open the Terminal and start using ‘dd’ and ‘ddrescue’ directly from the command line
+
+#### Linux
+- Linux distributions usually come with ‘dd’ pre-installed, but if it’s not available open Ubuntu Terminal and run the following command: 
+    - `sudo apt-get install coreutils`
+- To install ‘ddrescue’, run the following command in Ubuntu Terminal: 
+    - `sudo apt-get install gddrescue`
+
+## Installation of Sleuth Kit
+#### Windows
+- Visit the Sleuth Kit website ([https://www.sleuthkit.org/sleuthkit/download.php](https://www.sleuthkit.org/sleuthkit/download.php)) and download the Windows distribution package (e.g., sleuthkit-4.x.x-win32.zip)
+- Extract the contents of the downloaded ZIP file to a location on your computer
+- Add the Sleuth Kit binaries to your system's PATH environment variable:
+
+    - Right-click on "My Computer" or "This PC" and select "Properties"
+	- Click on "Advanced system settings"
+	- In the "System Properties" window, click on the "Environment Variables" button
+	- In the "Environment Variables" window, under "System variables", select the "Path" variable and click on "Edit"
+	- Add the path to the Sleuth Kit binaries (e.g., C:\path\to\sleuthkit-4.x.x-win32\bin) to the list of paths.
+	- Click "OK" to save the changes.
+- Open a new command prompt or terminal window and verify that Sleuth Kit is installed correctly by running the following command: `fls -h`
+	
+#### MacOS
+
+- Open the Terminal application and run the following command:
+    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Once Homebrew is installed, run the following command in Terminal to install Sleuth Kit:       
+    - `brew install sleuthkit`
+- After the installation is complete, you can verify that Sleuth Kit is installed correctly by running the following command: 
+    - `fls -h`
+
+#### Linux
+- Open Ubuntu Terminal and first run the following command to update the package manager's cache: 
+    - `sudo apt update`
+- Use the following command to install the tool Sleuth Kit: 
+    - `sudo apt install sleuthkit`
+- After the installation is complete, you can verify that Sleuth Kit is installed correctly by running the following command: 
+    - `fls -h`
+	
+## Installation of Scalpel
+#### Linux
+- Open the Ubuntu Terminal
+- Run the following command to check if every packet is upgraded in your system: `sudo apt update`
+- To install ‘scalpel’, run the following command in Ubuntu Terminal: `sudo apt install scalpel`
+- To check if you successfully installed the tool run the command: `scalpel -V`
+
+## Installation Volatility
+#### Linux
+- Open the Ubuntu Terminal
+- Run the following command to check if every packet is upgraded in your system: `sudo apt update`
+- Install Git from your package manager using the following command: `sudo apt install git`
+- Navigate to the directory where you want to clone the Volatility repository and run the command:    `git clone https://github.com/volatilityfoundation/volatility.git`
+- Navigate into the "volatility" directory by running the following command: `cd volatility`
+- To check if you successfully installed the tool run the command: `python vol.py`
+	
+## Installation of Chkrootkit
+#### Linux
+- Open the Ubuntu Terminal
+- Run the following command to check if every packet is upgraded in your system: 
+    - `sudo apt update`
+- To install ‘chkrootkit’, run the following command in Ubuntu Terminal: 
+    - `sudo apt install chkrootkit`
+- To check if you successfully installed the tool run the command: 
+    - `chkrootkit -V`
+	
+## Explanation of TCT Video
+
+## Aditional Resources
+
+ - [Website to download Ubuntu on your Machine: 
+Download Ubuntu Desktop | Download | Ubuntu](https://ubuntu.com/download/desktop)
+
+ - [Website to download Python on your Machine](https://www.python.org/downloads/windows/)
+
+
+		
+
+		
+		
+		
+	
+	
+
+		
+		
+
+		

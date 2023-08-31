@@ -1,0 +1,126 @@
+---
+layout: post
+title:  "Nessus for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Safwat
+categories: ['Assessment Tools']
+background: '/images/Home page Background.jpg'
+---
+## Nessus for beginners
+- Nessus was created by Renaud Deraison in 1998
+It offers a remote security scanner to the online community
+- It examines a computer and alerts you if it finds any vulnerabilities that may be exploited by malevolent hackers to access any machine you have linked to a network
+- It accomplishes this by doing more than 1200 tests on particular computers, checking to determine whether any of these threats may be used to infiltrate the computer or cause harm in other ways
+- It works with several operating systems, including Windows, Linux, and Mac
+- It installs, scans, and reports numerous vulnerabilities via a web interface
+
+## Why Nessus?
+Nessus has many advantages over other network vulnerability scanners. The key points are included as follows:
+- Unlike other scanners, Nessus does not make assumptions about your server configuration (such as assuming that port 80 must be the only web server) that can cause other scanners to miss real vulnerabilities.
+- Nessus is very extensible, providing a scripting language for you to write tests specific to your system once you become more familiar with the tool. Its also provides a plug-in interface, and many free plug-ins are available from the [Nessus plug-in site](https://www.tenable.com/plugins).   These plugs are often specific to detecting a common virus or vulnerability. 
+- Up to date information about new vulnerabilities and attacks.  The Nessus team updates the list of what vulnerabilities to check for on a daily basis in order to minimize the window between an exploit appearing in the wild, and you being able to detect it with Nessus.
+- Open-source.  Nessus is open source, meaning it costs nothing, and you are free to see and modify the source as you wish.
+- Patching Assistance:  When Nessus detects a vulnerability, it is also most often able to suggest the best way you can mitigate the vulnerability.
+
+For other advantages/features of Nessus, see: [http://www.nessus.org/features.html](http://www.nessus.org/features.html)
+
+## Uses of Nessus
+- Asset Discovery
+    - [https://www.tenable.com/blog/using-nessus-for-host-discovery](https://www.tenable.com/blog/using-nessus-for-host-discovery)
+- Penetration Testing Reconnaissance
+    - [https://www.tenable.com/source/penetration-testing](https://www.tenable.com/source/penetration-testing)
+- Vulnerability Assessment
+    - [https://www.tenable.com/source/vulnerability-assessment](https://www.tenable.com/source/vulnerability-assessment)
+- Third-Party Integration
+    - [https://www.youtube.com/watch?v=Cdv_7Cs7RS4&list=PLOMx6Layn69hduI4YjVkDw-tN6H_kBZ6l&index=36](https://www.youtube.com/watch?v=Cdv_7Cs7RS4&list=PLOMx6Layn69hduI4YjVkDw-tN6H_kBZ6l&index=36)
+- Data Discovery, Classification, DLP, Insider Threat
+    - [https://docs.tenable.com/nessus/10_5/Content/DiscoverySettings.htm?Highlight=data%20discovery](https://docs.tenable.com/nessus/10_5/Content/DiscoverySettings.htm?Highlight=data%20discovery)
+- Active Directory (AD) Checks
+    - [https://www.tenable.com/blog/new-in-nessus-find-and-fix-these-10-active-directory-misconfigurations](https://www.tenable.com/blog/new-in-nessus-find-and-fix-these-10-active-directory-misconfigurations)
+- Version and Change Control
+    - [https://www.tenable.com//nessus-reports/unsupported-software-report](https://www.tenable.com//nessus-reports/unsupported-software-report)
+- Unsupported OS and Third-Party Software
+    - [https://www.tenable.com/nessus-reports/unsupported-software-report](https://www.tenable.com/nessus-reports/unsupported-software-report)
+- Prioritize Top Threats
+    - [https://www.tenable.com/blog/what-is-vpr-and-how-is-it-different-from-cvss](https://www.tenable.com/blog/what-is-vpr-and-how-is-it-different-from-cvss)
+- Immediate Results from Updated Plugins
+    - [https://docs.tenable.com/nessus/Content/LiveResults.htm](https://docs.tenable.com/nessus/Content/LiveResults.htm)
+- Threat Hunting with YARA
+    - [https://docs.tenable.com/nessus/Content/AssessmentSettings.htm?Highlight=yara](https://docs.tenable.com/nessus/Content/AssessmentSettings.htm?Highlight=yara)
+- Scanning Deployment Flexibility
+    - [https://www.youtube.com/watch?v=JpMLhXLtZA8&list=PLOMx6Layn69hduI4YjVkDw-tN6H_kBZ6l&index=4](https://www.youtube.com/watch?v=JpMLhXLtZA8&list=PLOMx6Layn69hduI4YjVkDw-tN6H_kBZ6l&index=4)
+- Audit Cloud Assets
+    - [https://www.tenable.com/audits/items/search?q=cloud&sort=&page=1](https://www.tenable.com/audits/items/search?q=cloud&sort=&page=1)
+- White Label and Customizable Reports
+    - [https://docs.tenable.com/nessus/Content/CustomizeReportSettings.htm](https://docs.tenable.com/nessus/Content/CustomizeReportSettings.htm)
+- Network Infrastructure and Database Configuration Audits
+    - [https://www.tenable.com/solutions/configuration-auditing](https://www.tenable.com/solutions/configuration-auditing)
+- Audit Security Frameworks and Standards for Compliance
+    - [https://www.tenable.com/solutions/configuration-auditing](https://www.tenable.com/solutions/configuration-auditing)
+- External Attack Surface Discovery
+    - [https://www.tenable.com/data-sheets/nessus-expert](https://www.tenable.com/data-sheets/nessus-expert)
+- Infrastructure as Code (IaC) Analysis
+    - [https://www.tenable.com/blog/what-is-iac-and-why-does-it-matter-to-the-ciso](https://www.tenable.com/blog/what-is-iac-and-why-does-it-matter-to-the-ciso)
+
+## Requirements
+
+#### Hardware Requirements
+The following table lists the hardware requirements for Tenable Nessus scanners and Tenable Nessus Professional
+ <img class="img-fluid" src="/EHEblog/images/Nessus/1.png" alt="Image of a table that lists the hardware requirements for Tenable Nessus scanners and Tenable Nessus Professional
+">
+ <img class="img-fluid" src="/EHEblog/images/Nessus/2.png" alt="Image of a table that lists the hardware requirements for Tenable Nessus scanners and Tenable Nessus Professional
+">
+
+#### Software Requirements
+The following table lists the software requirements for Tenable Nessus scanners and Tenable Nessus Professional
+ <img class="img-fluid" src="/EHEblog/images/Nessus/3.png" alt="Image of a table that lists the software requirements for Tenable Nessus scanners and Tenable Nessus Professional
+">
+
+## Installation Process
+### For Windows
+## Start Nessus Installation
+1. Navigate to the folder where you downloaded the Nessus installer.
+2. Next, double-click the file name to start the installation process.
+
+## Complete the Windows InstallShield Wizard
+1. First, the **Welcome to the InstallShield Wizard for Tenable, Inc**. Nessus screen appears. Select **Next** to continue.
+2. On the **License Agreement** screen, read the terms of the Tenable, Inc. Nessus software license and subscription agreement. 
+3. Select the **I accept the terms of the license agreement** option, and then click **Next**.
+4. On the **Destination Folder** screen, select the **Next** button to accept the default installation folder. Otherwise, select the **Change** button to install Nessus to a different folder.
+5. On the **Ready to Install the Program** screen, select the **Install** button.
+
+Note: After the **InstallShield Wizard** completes, the **Welcome to Nessus** page loads in your default browser.
+
+### For MacOS
+1. Open Terminal.
+2. Run the following commands in the listed order:
+    - `sudo hdiutil attach Nessus-<Nessus_Version>.dmg`
+    - `sudo installer -package /Volumes/Nessus\ Install/Install\ Nessus.pkg -target /`
+    - `sudo hdiutil detach /Volumes/Nessus\ Install`
+3. Open Tenable Nessus in your browser.
+    - To access a remotely installed Nessus instance, go to https://<remote IP address>:8834 (for example, https://111.49.7.180:8834).
+    - To access a locally installed Nessus instance, go to https://localhost:8834.
+4. Perform the remaining [Nessus installation steps](https://docs.tenable.com/nessus/Content/ConfigureNessus.htm) in your browser.
+
+### For Raspberry Pi
+1. Download the Tenable Nessus package file. For details, see Download Nessus.
+2. From a command prompt or terminal window, run the Nessus installation command: 
+    - `dpkg -i Nessus-10.0.0-raspberrypios_armhf.deb`
+3. From a command prompt or terminal window, start the nessusd daemon by running the following command:
+    - `/bin/systemctl start nessusd.service`
+4. Open Tenable Nessus in your browser.
+    - To access a remotely installed Nessus instance, go to https://<remote IP address>:8834 (for example, https://111.49.7.180:8834).
+    - To access a locally installed Nessus instance, go to https://localhost:8834.
+5. Perform the remaining [Nessus installation steps](https://docs.tenable.com/nessus/Content/ConfigureNessus.htm) in your browser.
+## Video
+## Additional Resources
+
+- [Website to download Nessus](https://www.tenable.com/downloads/nessus?loginAttempted=true)
+
+- [Documentation of Nessus](https://docs.tenable.com/Nessus.htm)
+Useful video links
+
+    - [https://www.techtarget.com/searchnetworking/definition/Nessus#:~:text=What%20is%20Nessus%3F,a%20commercial%20product%20in%202005](https://www.techtarget.com/searchnetworking/definition/Nessus#:~:text=What%20is%20Nessus%3F,a%20commercial%20product%20in%202005)
+
+    - [https://www.section.io/engineering-education/getting-started-with-nessus-scanner/](https://www.section.io/engineering-education/getting-started-with-nessus-scanner/)
+

@@ -52,7 +52,8 @@ The NRPE plugin consists of two components:
 ## Nagios Installation video
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/w1g3gqsqG24" frameborder="0" allowfullscreen></iframe>
-----
+
+
 ## Additional Resources
 
  - Nagios Installation Guide: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/quickstart.html

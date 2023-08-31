@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "IPTables for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Safwat
+categories: ['Perimeter Security']
+background: '/images/Home page Background.jpg'
+---
+## IPTables for beginners
+The most widely used firewall/NAT software for Linux was ipchains, however, it had a number of shortcomings. In order to address this, the Netfilter company chose to develop a new product called iptables and made the following improvements to it:
+- Better integration with the Linux kernel, so improved speed and reliability.
+- Stateful packet inspection.
+- Filter packets according to TCP header and MAC address.
+- Better network address translation.
+- A rate limiting feature that helps iptables block some types of denial of service (DoS) attacks.
+
+Considered a faster and more secure alternative to ipchains, iptables has become the default firewall package installed under RedHat and Fedora Linux.
+
+There are three terminology are using for iptables: Tables, Chains, and Rules.
+
+
+ <img class="img-fluid" src="/EHEblog/images/IPtables/1.png" alt="IPTable blog">
+
+  <img class="img-fluid" src="/EHEblog/images/IPtables/2.png" alt="IPTable blog">
+
+## Why do we need iptables?
+There are many reasons for using iptables. For better understanding a list of reasons for using iptables are given below:
+- It is a full feature tool providing with everything that may need
+- It has flexibility to take any action with a packet
+- It has a powerful software firewall
+- It secures the system (PC) from unauthorized access.
+- The Linux kernel firewall has the built-in ability to filter packets and allow outgoing and incoming network traffic into system (PC).
+
+## Uses of Tool
+The following operations can be done using iptables:
+
+- Stateful (IPv4 only)/Stateless (IPv4 and IPv6 packet filtering
+- Connection tracking
+- All types of network address and port translation (NAT/NAPT)
+- Use NAT and masquerading for sharing internet access if don’t have enough public IP addresses.
+- QoS (Quality of Service) routing
+- Packet manipulation (mangling), such as altering the ToS (Type of Service) bits of the IP header.
+
+## Requirements
+The following facilities are required to use the tool (IPTables):
+
+- Linux base operating system (Kali, Ubuntu, Pop OS, etc.)
+- Package manager (apt, dnf, rpm, etc.)
+- Any terminal
+- Compressors to extract downloaded file (if use downloaded file)
+
+## Installation Process
+
+#### For Linux - Debian
+
+Iptables comes pre-installed in most Linux distributions. However, the installation steps for Debian-based Linux distribution are as follows:
+ 1. Open terminal
+ 2. Type the following commands:
+    - `sudo apt-get update`
+    - `sudo apt install iptables`
+ 3. Once the IPTables installation completed, enable the firewall by the commands below:
+    - `sudo systemctl enable iptables`
+    - `sudo systemctl start iptables`
+ 4. To monitor the state of the IPTable service follow below command:
+    - `sudo systemctl status iptables`
+
+#### Linux - RHEL
+Iptables comes pre-installed in most Linux distributions. However, the installation steps for RHEL-based Linux distribution are as follows:
+ 1. Open terminal
+ 2. Type the following commands:
+    - `sudo dnf install iptables-services`
+ 3. Once the IPTables installation completed, enable the firewall by the commands below:
+    - `sudo systemctl enable iptables`
+    - `sudo systemctl start iptables`
+ 4. To monitor the state of the IPTable service follow below command:
+    - `sudo systemctl status iptables`
+
+## Explanation Video
+
+## Additional Resources
+- [Website to download IPTables](https://www.linuxfromscratch.org/blfs/view/svn/postlfs/iptables.html)
+- [Useful instructions for IPTables](https://linuxhint.com/iptables-tutorial/)
+- [Useful link of IPTables video tutorials](https://www.youtube.com/watch?v=v-z6LCcrutw&list=PLvadQtO-ihXt5k8XME2iv0cKpKhcYqe7i)
+- [https://www.javatpoint.com/iptables-commands](https://www.javatpoint.com/iptables-commands)
+- [https://homes.di.unimi.it/sisop/qemu/iptables-tutorial.pdf](https://homes.di.unimi.it/sisop/qemu/iptables-tutorial.pdf)
+
+
+

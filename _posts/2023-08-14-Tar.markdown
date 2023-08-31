@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Tar for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Safwat
+categories: ['Compression Utilities']
+background: '/images/Home page Background.jpg'
+---
+## Tar for beginners
+
+Tar is a general-purpose archiving utility. It stands for Tape Archive. It capable of packing many files into a single archive file. While retaining information needed to restore the files fully, such as file permissions and ownership.
+
+Options in the TAR command
+- `-c`: Create a new archive.
+- `-f`: file name; create an archive along with the provided name of the file.
+- `-x`: extract files from an archive.
+- `-u`: add/update an archive to the existing archive file.
+- `-r`: Add/update a directory or file in an existing .tar file.
+- `-t`: display or list files inside the archived file.
+- `-v`: Show verbose information.
+- `-j`: It is used for filtering archive tar files with the help of tbzip.
+- `-z`: It is a zip file and informs the tar command that makes a tar file with the help of gzip.
+- `-W`: This option is used for verifying the archive file.
+
+## Installation
+#### For Linux (Ubuntu):
+1. Open up an instance of Terminal.
+2. Type in the below command and press Enter.
+    - `sudo apt install tar`
+
+## Video
+
+## Additional Resources
+- [https://www.geeksforgeeks.org/tar-command-linux-examples/](https://www.geeksforgeeks.org/tar-command-linux-examples/)
+
+
+
+
+	

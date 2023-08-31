@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Whois for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Safwat
+categories: ['DNS Utilities']
+background: '/images/Home page Background.jpg'
+---
+## Whois for beginners
+- The whois command displays information about a website's record. You may get all the information about a website regarding its registration and owner's information.
+- This command is a widely used Internet record listing that identifies who owns a domain and how to get in contact with them. The Internet Corporation for Assigned Names and Numbers (ICANN) regulates domain name registration and ownership.
+- The whois is a database managed by local internet registrar, availing to us the personal information about the owner for example`: his contact details, his organization, and his IP as well as his geographical location ” we can use whois command to retrieve that information. 
+- A typical whois record will contain the following information:
+    1. **The name and contact information of the registrant**: The owner of the domain.
+    2. **The name and contact information of the registrar**: The organization that registered the domain name.
+    3. **The registration date**.
+    4. **When the information was last updated**.
+    5. **The expiration date**.
+
+## Installation
+#### For Linux:
+If you need to install it on your Linux system, you can do so with the following command in the terminal:
+- `sudo apt install whois`
+
+#### For Windows:
+- [Download](https://download.sysinternals.com/files/WhoIs.zip) Whois utility. [This tool is a part of Sysinternal tools.]
+- Extract the archive into a folder
+Then extract the executable file to a directory in your system path
+- Open a Windows command prompt
+- Type `whois -v example.com`
+- Whois will return the output to the terminal
+
+## Explanation Video
+
+
+## Additional Resources
+[https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/](https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/)
+
+
+

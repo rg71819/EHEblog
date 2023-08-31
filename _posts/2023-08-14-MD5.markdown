@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "Message Digest Method 5(MD5) for beginners"
+date:   2023-08-14 05:28:23 -0500
+author: Teona
+categories: ['Miscellaneous Tools']
+background: '/images/Home page Background.jpg'
+---
+## Message Digest Method 5 (MD5) for beginners
+
+MD5 is based on a hash function that verifies that a file you sent matches the file received by the person you sent it to. MD5 is a cryptographic hash algorithm used to generate a 128-bit digest from a string of any length. MD5 hashes are commonly used with smaller strings when storing passwords, credit card numbers or other sensitive data in databases such as the popular MySQL. An MD5 hash is a fingerprint of the given input, it is NOT encryption.
+MD5 ensures the data integrity: 
+- Always produces the same output for the same given input -> 
+    users can compare a hash of the source file with a newly created hash 
+    of the destination file to check that it is intact and unmodified 
+
+## Purpose of MD5
+- Data Integrity: MD5 was designed to ensure data integrity by providing a way to verify that data has not been hidden or corrupted during transmission or storage. By comparing the MD5 hash of the received data with the original hash, any changes or corruption can be detected.
+- Password Storage: MD5 was initially used for password hashing in databases and systems. Instead of storing plain text passwords, MD5 hashes the passwords for storage. During authentication, the input password is hashed and compared to the stored hash for verification.
+- Efficiency: MD5 was created as an improvement over earlier hash functions in terms of efficiency. It was designed to be fast and able to process large amounts of data quickly.
+- Simplicity and Versatility: MD5 was designed to be simple to implement and use in various applications. It has been widely supported by different programming languages and platforms, making it accessible and versatile for developers.
+- Research and Development: MD5 was also created to advance the field of cryptography and hash function design. It served as a subject of research and study for cryptographic principles, algorithms, and vulnerabilities.
+- As a result of MD5 creation, more secure hash functions like SHA-256 are recommended for cryptographic operations.
+
+## Uses of Md5
+- Data Integrity Verification
+  - MD5 is used to verify the integrity of data during transmission or storage
+  - Comparing the MD5 hash of received data with the original hash helps detect changes
+- Password Storage
+  - MD5 has been historically used for password hashing in databases and systems
+  - Instead of storing plain text passwords, MD5 hashes the passwords for storage and verification
+- Digital Forensics
+  - MD5 is utilized in digital forensics to ensure the integrity of evidence
+  - Hashes of files or disk images can be compared with known MD5 hashes
+	   to verify their authenticity
+- Checksum Generation
+	- MD5 is used to generate checksums for files or data to detect errors or ensure data integrity
+	- Checksums can be compared before and after data transmission to identify any changes or data corruption
+- Non-Security Applications	
+	- MD5 finds utility in non-security-related applications
+	- Used in non-critical systems for checksum verification, data deduplication, 
+	    or simple data integrity checks
+## Requirements
+- Programming or Scripting Language: Ensure that you have access to a language like Python, Java, C/C++, PHP,  that supports MD5 hashing
+- Development Environment: You'll need a development environment or Integrated Development Environment (IDE) like PyCharm, Eclipse, Visual Studio, or a simple text editor like Sublime Text or Notepad++, to write and execute the code that utilizes MD5
+- MD5 Library or Module: Depending on the programming language you may need to import or include a specific library or module that provides MD5 functionality. For example, in Python, you can use the hashlib module, while in Java, you can utilize the MessageDigest class.
+- Input Data: Prepare the data or message that you want to hash using MD5. This could be a string, a file, or any other type of input that you want to calculate the MD5 hash for.
+- Code Implementation: Write the code that uses the MD5 library or module to calculate the MD5 hash of the input data. This typically involves calling the appropriate MD5 function or method provided by the library and passing the input data as a parameter.
+- Output Handling: Decide how you want to handle or store the MD5 hash value. It is often represented as a hexadecimal string. Depending on your application, you might want to store it in a variable, display it on the screen, or write it to a file.
+## Installation Process
+#### For Windows and MacOS
+The installation process for Windows and MacOS is the same.
+- Downloaded from the following link: 
+- MD5 Calculator - Free download and software reviews - CNET Download
+- Follow the instructions to install it on your machine
+- You will have this icon on your Desktop: 
+ <img class="img-fluid" src="/EHEblog/images/Md5/1.png" alt="image showing Md5 icon">
+
+#### For Linux
+For Debian/Ubuntu-based distributions:
+ - `sudo apt install md5deep` OR `sudo apt install hashdeep`
+
+For Fedora/RHEL-based distributions:
+- `sudo dnf install md5deep` OR `sudo dnf install hashdeep`
+
+For openSUSE/SUSE-based distributions:
+- `sudo zypper install md5deep` OR `sudo zypper install hashdeep`
+
+## Explanation of MD5 Calculator
