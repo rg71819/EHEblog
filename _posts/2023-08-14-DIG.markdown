@@ -73,6 +73,7 @@ Dig provides options for querying specific DNS record types, displaying addition
 
 ## DIG Installation and Usage video
 
+<iframe src="https://drive.google.com/file/d/1nVNNwnn4Xna7U9lStwhyLM904fJWdmcP/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Links for more dig tutorials:
 - [Using the dig command to troubleshoot and solve DNS problems – YouTube](https://www.youtube.com/watch?v=hYZY75xMjlY)
