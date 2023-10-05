@@ -79,6 +79,8 @@ If GCC is installed correctly, it will display the version information
 
  ## Explanation of GCC toolchain
 
+ <iframe src="https://drive.google.com/file/d/19I7KYhNfk4r0DD9z77fIFZa1DWK42Kbz/preview" width="640" height="480" allow="autoplay"></iframe>
+
  ## Additional Resources	 
  - [Website to download Ubuntu on your Machine](https://ubuntu.com/download/desktop)
  - [Website to download Virtual Box on your Machine](https://www.virtualbox.org/wiki/Downloads)

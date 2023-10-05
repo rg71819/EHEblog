@@ -113,6 +113,20 @@ Note: After the **InstallShield Wizard** completes, the **Welcome to Nessus** pa
     - To access a locally installed Nessus instance, go to https://localhost:8834.
 5. Perform the remaining [Nessus installation steps](https://docs.tenable.com/nessus/Content/ConfigureNessus.htm) in your browser.
 ## Video
+
+<iframe src="https://drive.google.com/file/d/1xZa2zZ9PCe3GArm5VYtfq9fgMmlh1kTI/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1ZS29ywSXiOqsXSATezaunL0xeoeurtow/preview" width="640" height="480" allow="autoplay"></iframe>
+
+
+<iframe src="https://drive.google.com/file/d/15s5dSPqluQjYGngZTcL9Ls4sMQHFhV16/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1ga8bfxhNLSc66p1SMWpQ9ATPHuO7yZoH/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1Vzjf_VdmMgE8tAN4GUWIJ0gTmK1wRV0L/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1Ehp2gD4uWsgz4GarUvtYMXI_Qp2R3js/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Additional Resources
 
 - [Website to download Nessus](https://www.tenable.com/downloads/nessus?loginAttempted=true)

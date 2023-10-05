@@ -52,3 +52,5 @@ Integration with Other Tools and Programming Languages
 - To check if the installation was successful run the command: 
   - `gzip --version`
 ## Explanation of Gzip video
+
+<iframe src="https://drive.google.com/file/d/1TiwY12a4RFSsnVS4vI80XbTTVK_5Qxib/preview" width="640" height="480" allow="autoplay"></iframe>

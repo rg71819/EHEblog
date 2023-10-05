@@ -77,6 +77,8 @@ Iptables comes pre-installed in most Linux distributions. However, the installat
 
 ## Explanation Video
 
+<iframe src="https://drive.google.com/file/d/1vfCPwGhm3P9N1eUA1qCdxsjfjuXk3lt2/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Additional Resources
 - [Website to download IPTables](https://www.linuxfromscratch.org/blfs/view/svn/postlfs/iptables.html)
 - [Useful instructions for IPTables](https://linuxhint.com/iptables-tutorial/)

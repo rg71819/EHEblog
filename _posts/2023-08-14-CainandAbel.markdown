@@ -47,6 +47,10 @@ The system requirements needed to successfully setup Cain & Abel are:
 
 ## Installation and Explanation Video
 
+<iframe src="https://drive.google.com/file/d/1f9hDfPK205JHZUuYDb3R397m1EMPfdrX/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1EZ3h3SWfZTpe-YTU2rI23fQTE73_KXRW/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Additional Resources
 [http://www.cs.toronto.edu/~arnold/427/15s/csc427/tools/CainAndAbel/index.html](http://www.cs.toronto.edu/~arnold/427/15s/csc427/tools/CainAndAbel/index.html)
 
