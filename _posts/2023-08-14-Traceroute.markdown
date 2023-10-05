@@ -24,6 +24,8 @@ The traceroute is not a default utility of the Linux system. To use the tracerou
 - `sudo apt install inetutils-traceroute`
 - `sudo apt install traceroute`
 
+<iframe src="https://drive.google.com/file/d/14n-xZofs_p7AXQyXAgTNNm1UheF0xqBF/preview" width="640" height="480" allow="autoplay"></iframe>
+
 In Windows and Mac system tracert and traceroute are the default tool , respectively. It is not required to install additionally.
 
 ## Steps to Run Traceroute/tracert 
@@ -37,6 +39,11 @@ In Windows and Mac system tracert and traceroute are the default tool , respecti
 - Type in “`cmd`” and then hit “OK.” This initiates a command prompt.
 - Type in “`tracert [hostname]`” and press Enter
     - `tracert www.google.com`
+
+## Traceroute Usage
+
+
+<iframe src="https://drive.google.com/file/d/13gVJU7bmW92QQJQCWy5mk7wJdSRYvcVb/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Additional Resources
 - [https://www.javatpoint.com/linux-traceroute](https://www.javatpoint.com/linux-traceroute) 

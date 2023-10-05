@@ -30,8 +30,11 @@ Then extract the executable file to a directory in your system path
 - Type `whois -v example.com`
 - Whois will return the output to the terminal
 
+<iframe src="https://drive.google.com/file/d/1yFTB3Eas0V1PNNhcSpFGWmY_HMf9IRBt/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Explanation Video
 
+<iframe src="https://drive.google.com/file/d/1fZFon9Z1ClbJ0nyWzO8f1ifpbfm310RQ/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Additional Resources
 [https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/](https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/)

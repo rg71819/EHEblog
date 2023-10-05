@@ -28,7 +28,13 @@ Options in the TAR command
 2. Type in the below command and press Enter.
     - `sudo apt install tar`
 
-## Video
+## Tar Installation Video
+
+<iframe src="https://drive.google.com/file/d/1T-Q05P6I0fbKi8TZNWNiUxpooop010bi/preview" width="640" height="480" allow="autoplay"></iframe>
+
+## Tar Explanation Video
+
+<iframe src="https://drive.google.com/file/d/1ZlF2NaID1JzNt-MIEOKSxYJ6xZZPGjHc/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Additional Resources
 - [https://www.geeksforgeeks.org/tar-command-linux-examples/](https://www.geeksforgeeks.org/tar-command-linux-examples/)

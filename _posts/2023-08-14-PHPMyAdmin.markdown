@@ -84,4 +84,6 @@ To manage MySQL databases via a web interface, a programmer by the name of Tobia
 
 ## Explanation Video
 
+<iframe src="https://drive.google.com/file/d/1H9xmpmz7_EXd4w-2UdGkZyy8M6BA9brf/preview" width="640" height="480" allow="autoplay"></iframe>
+
 PHPMyAdmin offers a user-friendly interface, comprehensive features, and accessibility from various platforms. It simplifies tasks such as creating databases, managing tables, executing queries, and user administration. While it has its limitations and challenges, PHPMyAdmin remains a popular choice for database administration due to its ease of use, versatility, and continuous community support.

@@ -33,7 +33,13 @@ Sysinternals tools are widely used for various purposes related to system troubl
 - **Software and System Configuration Management**: Sysinternals tools such as Autoruns, Regmon, and Disk2vhd aid in managing software and system configurations. Autoruns helps manage auto-start programs, Regmon monitors registry activity, and Disk2vhd allows creating virtual hard disk images of physical systems for backup or virtualization purposes.
 - **Incident Response and Forensics**: Sysinternals tools are valuable in incident response and forensic investigations. Tools like Process Explorer, Procmon, and Disk Usage can assist in identifying and analyzing malicious activities, tracking system changes, and recovering deleted files or system artifacts.
 
-## Video
+## SYSInternals Installation Video
+
+<iframe src="https://drive.google.com/file/d/1j4-8396AXuAJfnI1Ll9QNGVAdbsjoskQ/preview" width="640" height="480" allow="autoplay"></iframe>
+
+## SYSInternals Explanation Video
+
+<iframe src="https://drive.google.com/file/d/1Z4-Ncvk4jZ5saofU0gORqRJTTuOw9Xjg/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Additional Resources
 - [https://learn.microsoft.com/en-us/sysinternals/downloads/security-utilities](https://learn.microsoft.com/en-us/sysinternals/downloads/security-utilities)

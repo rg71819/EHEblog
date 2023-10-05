@@ -112,7 +112,8 @@ Note: After the **InstallShield Wizard** completes, the **Welcome to Nessus** pa
     - To access a remotely installed Nessus instance, go to https://<remote IP address>:8834 (for example, https://111.49.7.180:8834).
     - To access a locally installed Nessus instance, go to https://localhost:8834.
 5. Perform the remaining [Nessus installation steps](https://docs.tenable.com/nessus/Content/ConfigureNessus.htm) in your browser.
-## Video
+
+## Nessus Explanation and Usage Videos
 
 <iframe src="https://drive.google.com/file/d/1xZa2zZ9PCe3GArm5VYtfq9fgMmlh1kTI/preview" width="640" height="480" allow="autoplay"></iframe>
 
@@ -125,7 +126,7 @@ Note: After the **InstallShield Wizard** completes, the **Welcome to Nessus** pa
 
 <iframe src="https://drive.google.com/file/d/1Vzjf_VdmMgE8tAN4GUWIJ0gTmK1wRV0L/preview" width="640" height="480" allow="autoplay"></iframe>
 
-<iframe src="https://drive.google.com/file/d/1Ehp2gD4uWsgz4GarUvtYMXI_Qp2R3js/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1Ehp2gD4uWsgz4GarUvtYMXI_Qp2R3jsY/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Additional Resources
 
