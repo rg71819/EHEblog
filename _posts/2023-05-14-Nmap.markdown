@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nmap for beginners"
-date:   2023-05-14 05:28:23 -0500
+date:   2023-08-14 05:28:23 -0500
 author: Ravi Shankar Gurram
 categories: ['Assessment Tools']
 background: '/images/nmap.jpg'
